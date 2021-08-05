@@ -9,7 +9,7 @@ header {
 header nav a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: black;
   display: inline-block;
   margin: 5px;
@@ -113,6 +113,7 @@ header nav a {
 .container .hero .buttons .clear {
   cursor: pointer;
   background-color: #00aaff;
+  min-height: 30px;
   height: auto;
   border: none;
   border-radius: 15px;
@@ -125,6 +126,7 @@ header nav a {
 .container .hero .buttons .empty {
   cursor: pointer;
   background-color: red;
+  min-height: 30px;
   height: auto;
   border: none;
   border-radius: 15px;
@@ -137,6 +139,7 @@ header nav a {
 .container .hero .buttons .save {
   cursor: pointer;
   background-color: #00ff2b;
+  min-height: 30px;
   height: auto;
   border: none;
   border-radius: 15px;
