@@ -1,0 +1,150 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid gray;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.hamburger {
+  margin: 7px 5px 5px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
+  gap: 1px;
+}
+
+.hamburger span {
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  min-height: 300px;
+}
+
+.container .hero {
+  -webkit-box-shadow: 2px 0 10px 7px lightgray;
+          box-shadow: 2px 0 10px 7px lightgray;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.container .hero .mainHeader {
+  margin: 0;
+}
+
+.container .hero .subHeader {
+  color: gray;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.container .hero .add-container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: 10fr 2fr;
+      grid-template-columns: 10fr 2fr;
+}
+
+.container .hero .add-container #newToDo {
+  height: 25px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.container .hero .add-container .add {
+  cursor: pointer;
+  background-color: #00aaff;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+}
+
+.container .hero .add-container .add:hover {
+  background-color: #0099e6;
+}
+
+.container .hero li {
+  padding: 2px;
+  margin-top: 5px;
+}
+
+.container .hero li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.container .hero .buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr 2fr;
+      grid-template-columns: 3fr 2fr 2fr;
+  gap: 10px;
+}
+
+.container .hero .buttons .clear {
+  cursor: pointer;
+  background-color: #00aaff;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+}
+
+.container .hero .buttons .clear:hover {
+  background-color: #0099e6;
+}
+
+.container .hero .buttons .empty {
+  cursor: pointer;
+  background-color: red;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+}
+
+.container .hero .buttons .empty:hover {
+  background-color: #e60000;
+}
+
+.container .hero .buttons .save {
+  cursor: pointer;
+  background-color: #00ff2b;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+}
+
+.container .hero .buttons .save:hover {
+  background-color: #00e626;
+}
+
+.done {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */
